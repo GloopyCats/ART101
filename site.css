@@ -1,0 +1,78 @@
+BODY {
+    background-color: rgb(255, 240, 165);
+    color:rgb(10, 10, 73); text-align: center;
+    padding: 50px;
+}
+
+.title {position: relative;}
+
+H1, H2, #hunt {font-family: sans-serif;}
+
+H1 {
+    position: relative;
+    display: block; margin-left: auto; margin-right: auto;
+    z-index: 2;
+    background-color: rgb(255, 232, 83);
+    padding: 10px;
+    border: 3px; border-style: solid; border-color: rgb(10, 10, 73);
+    width: 300px;
+}
+H1:hover {translate: 1000px;}
+
+#kitty {
+    position: absolute;
+    z-index: 1;
+    width: 70px; height:70px;
+    top: 20px;
+}
+
+H2 {
+    color:rgba(119, 4, 35, 0.896);
+    font-size: 32px;
+}
+
+.freestandtext01 {
+    display:block; margin-left: auto; margin-right: auto;
+    text-align:center; 
+    background-color: rgb(255, 151, 77); 
+    border-width: 3px; border-color: rgb(255, 119, 0); border-style: inset;
+    padding: 10px;
+    width: 800px; height: 100px;
+    font-size: 18px;
+}
+.freestandtext01:hover {width: 820px; height: 110px;}
+
+.coolphotos {
+    display: flex; justify-content: center; 
+    flex-wrap: wrap; align-items: center; 
+    row-gap: 30px; column-gap: 30px;
+    margin-bottom: 30px;
+}
+#spy {height: 300px; border: rgb(10, 10, 73); border-width: 5px; border-style: double;}
+#wheel {height: 300px; border: rgb(10, 10, 73); border-width: 5px; border-style: double;}
+
+.freestandtext02 {
+    display:block; margin-left: auto; margin-right: auto;
+    text-align:center; 
+    background-color: rgb(255, 151, 77); 
+    border-width: 3px; border-color: rgb(255, 119, 0); border-style: inset;
+    padding: 10px;
+    width: 800px; height: 150px;
+    font-size: 18px;
+}
+.freestandtext02:hover {width: 820px; height: 160px;}
+
+#hunt {
+    /*learned how to make gradient text with this website but I have yet to master it
+    https://stackoverflow.com/questions/8384751/css-text-gradient, using the answer
+    from toastrackenigma*/
+    font-size: 40px;
+    background: linear-gradient(to right,#7e57c2, #2196f3, #26c6da);
+    background-clip: text;
+    color: transparent;
+}
+
+a {color: rgb(19, 19, 134)}
+a:hover {color: rgba(119, 4, 35, 0.896)}
+.linklist {text-align:center;}
+.list1 {display:inline-block; text-align: left;}
