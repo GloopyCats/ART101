@@ -89,6 +89,9 @@ H1 {font-family: "Exo 2";}
 
 H3 {font-family: "Exo 2";}
 
-mark {background-color: rgb(255, 242, 201);}
+mark {
+    background-color: rgb(255, 242, 201);
+    color: rgb(255, 242, 201);
+}
 
 #wtf {text-align: center; text-shadow: 2px 2px 4px rgb(0, 0, 0);}
