@@ -1,0 +1,94 @@
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name*/
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+BODY {
+    /*tutorial i found to do color overlay on background image
+    https://blog.jim-nielsen.com/2025/background-image-opacity-css/*/
+    background-color: rgba(182, 55, 255, 0.627);
+    background-image: url(skym.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 150%;
+    background-blend-mode: color;
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 30px;
+}
+
+#steve {
+    display: block; 
+    height: 270px; width: 270px;
+    border: 5px; border-style: outset; border-color: rgb(13, 4, 90);
+}
+
+.part-one {
+    display: flex; flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 25px 0 25px 0;
+    gap: 30px;
+    text-align: center;
+}
+
+H1 {font-family: "Exo 2";}
+
+#headline {
+    text-align: center; font-family: sans-serif; font-size: 35px; color:rgb(255, 242, 201); 
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    border: 5px; border-style: outset; border-color: rgb(63, 4, 90);
+    padding: 5px; 
+    background-color: rgba(95, 43, 226, 0.416);
+    width: 800px
+}
+
+.para {
+    color:rgb(255, 242, 201); font-size: 24px;
+    padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;
+    background-color: rgba(43, 89, 226, 0.563);
+    width: 600px; height: 250px;
+}
+
+.sub-sections {
+    display: flex; align-items: flex-start; gap: 30px;
+}
+.sub-sections img{
+    height: 200px
+}
+
+#lemurian, #survivor {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.393);
+    width: 320px; height: 300px;
+    padding: 20px;
+}
+
+#info-box {
+    text-align: center;
+    background-color: rgba(0, 255, 153, 0.393);
+    border: 5px; border-style: solid; border-color: rgb(229, 252, 219);
+    width: 440px; height: 290px;
+    padding: 20px;
+    font-family: serif;
+    color: rgb(255, 242, 201)
+}
+
+#logtext {
+    font-size: 20px;
+}
+
+#liz:hover, #guy:hover {
+    height: 210px; transition: 200ms;
+}
+
+H3 {font-family: "Exo 2";}
+
+mark {background-color: rgb(255, 242, 201);}
+
+#wtf {text-align: center; text-shadow: 2px 2px 4px rgb(0, 0, 0);}
