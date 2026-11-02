@@ -29,6 +29,8 @@ BODY {
     border: 5px; border-style: outset; border-color: rgb(13, 4, 90);
 }
 
+#wtf {text-align: center; text-shadow: 2px 2px 4px rgb(0, 0, 0);}
+
 .part-one {
     display: flex; flex-wrap: wrap;
     align-items: flex-start;
@@ -94,4 +96,31 @@ mark {
     color: rgb(255, 242, 201);
 }
 
-#wtf {text-align: center; text-shadow: 2px 2px 4px rgb(0, 0, 0);}
+#env-scan {
+    display: block; margin-left: auto; margin-right: auto; margin-top: 30px;
+    background-color: rgb(104, 98, 117);
+    width: 800px; height: 370px;
+    border-style: outset; border-width: 5px; border-radius: 50px;
+    padding: 20px;
+}
+
+#scan-output {
+    background-color: rgb(45, 41, 53);
+    color:rgb(23, 225, 154);
+    height: 225px;
+    border-style: inset; border-width: 5px; border-color:rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.scan-buttons {
+    display: flex; justify-content: center;
+    gap: 30px;
+}
+
+#look, #listen, #smell, #feel {
+    width: 100px; height: 45px;
+    margin-top: 20px;
+    background-color: rgb(66, 51, 99);
+    color: rgb(255, 242, 201);
+}

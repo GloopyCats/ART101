@@ -35,8 +35,6 @@ $("#needy-button").click(function () {
     console.log(arrayPosition);
     console.log(currentMood);
 
-
-
 });
 
 $("#simple-button").click(function () {
@@ -62,7 +60,5 @@ $("#simple-button").click(function () {
     console.log(countOther);
     console.log(otherArray);
     console.log(otherCurrent);
-
-
 
 });
