@@ -26,7 +26,6 @@ function askRegion() {
 
         $("body").css( "background-image","url(skym.jpg)");
 
-
         $("#scan-output").html("Awaiting user input...")
 
         $("#look").click( function(){
