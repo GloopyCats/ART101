@@ -93,5 +93,14 @@ $("#money-button").click( function(){
 
     $("#money").html( "$" + money )
     console.log(money)
+
+    if (money >= 5) {
+        $("#chest").css("display", "block")
+    }
 });
 
+$("#chest").hover( function(){
+    $("#chest").hide()
+
+    alert("Someone Stole your chest!")
+});
